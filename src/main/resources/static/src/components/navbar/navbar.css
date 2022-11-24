@@ -1,0 +1,36 @@
+.nav.light {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+.nav.dark {
+  background-color: #20202380;
+}
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn_switchTheme {
+  outline: none;
+  background: none;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.nav-inner-name.light {
+  color: #1a202c;
+}
+
+.nav-inner-name.dark {
+  color: #fff;
+}
+
+.btn_switchTheme.light {
+  border: 1px solid #805ad5;
+  color: #1a202c;
+}
+.btn_switchTheme.dark {
+  border: 1px solid #fbd38d;
+  color: #fff;
+}
